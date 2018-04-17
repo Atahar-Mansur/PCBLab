@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.diptomanpcblab.asus.pcblab">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/pcb_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/pcb_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Logo"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Home"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Menu"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Option"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".About"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Credit"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Physics"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".PhyExp01P1"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".PhyExp01P2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".PhyExp01P3"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".PhyExp01P4"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".PhyExp01P5"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Chemestry"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".CheExp01P1"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".CheExp01P3"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".CheExp01P2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Biology"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".BioExp01P1"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".BioExp01P2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".BioExp01P3"
+            android:screenOrientation="landscape" />
+    </application>
+
+</manifest>

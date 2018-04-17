@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bio_back"
+    tools:context="com.diptomanpcblab.asus.pcblab.BioExp01P2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/items_name"
+        android:textColor="@color/biology_color"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:id="@+id/textView2" />
+
+    <ImageView
+        android:id="@+id/bio01i01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/bio01i01"/>
+
+    <ImageView
+        android:id="@+id/bio01i02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/bio01i01"
+        android:layout_marginStart="50dp"
+        android:layout_toEndOf="@+id/bio01i01"
+        android:src="@drawable/bio01i02" />
+
+    <ImageView
+        android:id="@+id/bio01i03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/bio01i02"
+        android:layout_marginStart="40dp"
+        android:layout_toEndOf="@+id/bio01i02"
+        android:src="@drawable/bio01i03" />
+
+    <ImageView
+        android:id="@+id/bio01i04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/bio01i03"
+        android:layout_marginStart="40dp"
+        android:layout_toEndOf="@+id/bio01i03"
+        android:src="@drawable/bio01i04" />
+
+    <ImageView
+        android:id="@+id/bio01i05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/bio01i02"
+        android:layout_below="@+id/bio01i02"
+        android:layout_marginTop="35dp"
+        android:src="@drawable/bio01i05"/>
+
+    <ImageView
+        android:id="@+id/bio01i06"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/bio01i05"
+        android:layout_marginStart="40dp"
+        android:layout_toEndOf="@+id/bio01i05"
+        android:src="@drawable/bio01i06" />
+
+    <ImageView
+        android:id="@+id/bio01i07"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/bio01i06"
+        android:layout_marginStart="40dp"
+        android:layout_toEndOf="@+id/bio01i06"
+        android:src="@drawable/bio01i07" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bio01i01"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginStart="25dp"
+        android:text="অণুবীক্ষণ যন্ত্র"
+        android:textColor="@color/biology_color"
+        android:textSize="20sp"
+        android:id="@+id/textView4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/bio01i02"
+        android:layout_below="@+id/bio01i02"
+        android:layout_marginStart="10dp"
+        android:text="স্লাইড"
+        android:textColor="@color/biology_color"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/bio01i02"
+        android:layout_below="@+id/bio01i03"
+        android:layout_marginStart="95dp"
+        android:text="কভার স্লিপ"
+        android:textColor="@color/biology_color"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/bio01i04"
+        android:layout_below="@+id/bio01i04"
+        android:layout_marginStart="8dp"
+        android:text="চিমটা"
+        android:textColor="@color/biology_color"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/bio01i05"
+        android:layout_below="@+id/bio01i05"
+        android:layout_marginStart="15dp"
+        android:text="পানি"
+        android:textColor="@color/biology_color"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/bio01i05"
+        android:layout_below="@+id/bio01i06"
+        android:layout_marginStart="86dp"
+        android:text="তাজা পেঁয়াজ"
+        android:textColor="@color/biology_color"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/bio01i07"
+        android:layout_below="@+id/bio01i07"
+        android:layout_marginStart="15dp"
+        android:text="ছুরি"
+        android:textColor="@color/biology_color"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/forPhy01P2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/forward01"
+        android:textColor="@color/biology_color"
+        android:textSize="27sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

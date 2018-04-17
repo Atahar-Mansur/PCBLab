@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/che_back"
+    tools:context="com.diptomanpcblab.asus.pcblab.CheExp01P2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/items_name"
+        android:textColor="@color/physics_color"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:id="@+id/textView2" />
+
+    <ImageView
+        android:id="@+id/bio01i01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_above="@+id/bicar"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/che01i01"/>
+
+    <ImageView
+        android:id="@+id/bio01i02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/bio01i01"
+        android:layout_marginStart="50dp"
+        android:layout_toEndOf="@+id/bio01i01"
+        android:src="@drawable/che01i02" />
+
+    <ImageView
+        android:id="@+id/bio01i03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/bio01i02"
+        android:layout_marginStart="50dp"
+        android:layout_toEndOf="@+id/bio01i02"
+        android:src="@drawable/che01i03" />
+
+    <ImageView
+        android:id="@+id/bio01i04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/bio01i03"
+        android:layout_marginStart="50dp"
+        android:layout_toEndOf="@+id/bio01i03"
+        android:src="@drawable/che01i04" />
+
+    <ImageView
+        android:id="@+id/bio01i05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_below="@+id/bio01i01"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="35dp"
+        android:src="@drawable/che01i05"/>
+
+    <ImageView
+        android:id="@+id/bio01i06"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/bio01i05"
+        android:layout_marginStart="50dp"
+        android:layout_toEndOf="@+id/bio01i05"
+        android:src="@drawable/che01i06" />
+
+    <ImageView
+        android:id="@+id/bio01i07"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/bio01i06"
+        android:layout_marginStart="50dp"
+        android:layout_toEndOf="@+id/bio01i06"
+        android:src="@drawable/che01i07" />
+
+    <ImageView
+        android:id="@+id/bio01i08"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/bio01i07"
+        android:layout_marginStart="50dp"
+        android:layout_toEndOf="@+id/bio01i07"
+        android:src="@drawable/che01i08" />
+
+    <TextView
+        android:id="@+id/bicar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/bio01i01"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="6dp"
+        android:text="বিকার"
+        android:textColor="@color/physics_color"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/bio01i01"
+        android:layout_below="@+id/bio01i02"
+        android:layout_marginStart="112dp"
+        android:text="তারজালি"
+        android:textColor="@color/physics_color"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/bio01i03"
+        android:layout_below="@+id/bio01i03"
+        android:layout_marginStart="7dp"
+        android:text="ত্রিপদী"
+        android:textColor="@color/physics_color"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/bio01i04"
+        android:layout_below="@+id/bio01i04"
+        android:layout_marginStart="7dp"
+        android:text="বার্নার"
+        android:textColor="@color/physics_color"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/bio01i05"
+        android:layout_below="@+id/bio01i05"
+        android:layout_marginStart="15dp"
+        android:text="পানি"
+        android:textColor="@color/physics_color"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/bio01i05"
+        android:layout_below="@+id/bio01i06"
+        android:layout_marginStart="105dp"
+        android:text="স্টপ-ওয়াচ"
+        android:textColor="@color/physics_color"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/bio01i06"
+        android:layout_below="@+id/bio01i07"
+        android:layout_marginStart="103dp"
+        android:text="থার্মোমিটার"
+        android:textColor="@color/physics_color"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/bio01i08"
+        android:layout_below="@+id/bio01i08"
+        android:layout_marginStart="9dp"
+        android:text="স্ট্যান্ড"
+        android:textColor="@color/physics_color"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/forPhy01P2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/forward01"
+        android:textColor="@color/physics_color"
+        android:textSize="27sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

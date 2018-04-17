@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="fireDarkRed">#180302</color>
+    <color name="homeBack">#3dcaca</color>
+    <color name="progress">#040e93</color>
+    <color name="progBack">#0882bf</color>
+    <color name="cmd_color">#9ce6d9</color>
+    <color name="divider">#021783</color>
+    <color name="select">#0358ac</color>
+    <color name="list_text_color">#061e56</color>
+    <color name="list_text_back">#0be5ec</color>
+    <color name="physics_color">#ffff00</color>
+    <color name="biology_color">#8400ff</color>
+</resources>
