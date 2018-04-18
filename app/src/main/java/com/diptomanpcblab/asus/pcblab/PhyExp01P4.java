@@ -155,13 +155,13 @@ public class PhyExp01P4 extends AppCompatActivity {
                         command.setText(R.string.phy01_cmd02);
                         exp++;
                     }
-                    if (v == var_main){
+                    if (v == var_main && exp==3){
                         var_away.setVisibility(View.VISIBLE);
                         var_main.setVisibility(View.INVISIBLE);
                         command.setText(R.string.phy01_cmd04);
                         exp++;
                     }
-                    if (v == thing_small){
+                    if (v == thing_small && (exp==4 || exp==8 || exp==12)){
                         if (i==1){
                             slide.setImageResource(R.drawable.phy01ex032);
                             exp++;
@@ -176,25 +176,25 @@ public class PhyExp01P4 extends AppCompatActivity {
                         }
                         command.setText(R.string.phy01_cmd05);
                     }
-                    if (v == var_away&&i==1){
+                    if (v == var_away && i==1 && exp==5){
                         var_away.setVisibility(View.INVISIBLE);
                         var1.setVisibility(View.VISIBLE);
                         take_value.setVisibility(View.VISIBLE);
                         i=2;
                     }
-                    else if (v == var_away&&i==2){
+                    else if (v == var_away && i==2 && exp==9){
                         var_away.setVisibility(View.INVISIBLE);
                         var2.setVisibility(View.VISIBLE);
                         take_value.setVisibility(View.VISIBLE);
                         i=3;
                     }
-                    else if (v == var_away&&i==3){
+                    else if (v == var_away && i==3 && exp==13){
                         var_away.setVisibility(View.INVISIBLE);
                         var3.setVisibility(View.VISIBLE);
                         take_value.setVisibility(View.VISIBLE);
                         i=4;
                     }
-                    if (v == var1){
+                    if (v == var1 && exp==6){
                         slide.setImageResource(R.drawable.phy01ex031);
                         var_away.setVisibility(View.VISIBLE);
                         turn.setVisibility(View.VISIBLE);
@@ -203,7 +203,7 @@ public class PhyExp01P4 extends AppCompatActivity {
                         exp++;
                     }
 
-                    if (v == var2){
+                    if (v == var2 && exp==10){
                         slide.setImageResource(R.drawable.phy01ex031);
                         var_away.setVisibility(View.VISIBLE);
                         turn.setVisibility(View.VISIBLE);

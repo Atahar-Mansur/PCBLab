@@ -14,4 +14,5 @@
     <color name="list_text_back">#0be5ec</color>
     <color name="physics_color">#ffff00</color>
     <color name="biology_color">#8400ff</color>
+    <color name="white">#ffffff</color>
 </resources>

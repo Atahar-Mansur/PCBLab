@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/phy_exp_back"
+    android:background="@drawable/phy_back"
     tools:context="com.diptomanpcblab.asus.pcblab.PhyExp01P4">
 
     <TextView
@@ -26,19 +26,37 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
-        android:layout_marginBottom="5dp"
-        android:layout_marginStart="12dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginStart="15dp"
         android:src="@drawable/phy_exp_back1" />
+
+    <ImageView
+        android:id="@+id/box1"
+        android:layout_width="75dp"
+        android:layout_height="65dp"
+        android:background="@color/white"
+        android:layout_alignEnd="@+id/phy01ex01"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="22dp"/>
 
     <ImageView
         android:id="@+id/phy01ex01"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
-        android:layout_alignTop="@+id/cmdId"
+        android:layout_alignParentTop="true"
         android:layout_marginEnd="21dp"
         android:layout_marginTop="36dp"
         android:src="@drawable/phy01ex01" />
+
+    <ImageView
+        android:id="@+id/box2"
+        android:layout_width="75dp"
+        android:layout_height="65dp"
+        android:background="@color/white"
+        android:layout_alignEnd="@+id/box1"
+        android:layout_below="@+id/phy01ex01"
+        android:layout_marginTop="30dp"/>
 
     <ImageView
         android:id="@+id/phy01ex02"
@@ -47,8 +65,17 @@
         android:layout_alignEnd="@+id/phy01ex01"
         android:layout_below="@+id/phy01ex01"
         android:layout_marginTop="38dp"
-        android:layout_marginEnd="17dp"
+        android:layout_marginEnd="15dp"
         android:src="@drawable/phy01ex021" />
+
+    <ImageView
+        android:id="@+id/box3"
+        android:layout_width="75dp"
+        android:layout_height="65dp"
+        android:background="@color/white"
+        android:layout_alignEnd="@+id/box1"
+        android:layout_below="@+id/box2"
+        android:layout_marginTop="16dp"/>
 
     <ImageView
         android:id="@+id/phy01ex05"
