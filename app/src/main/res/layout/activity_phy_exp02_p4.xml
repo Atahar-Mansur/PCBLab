@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/phy_back"
+    tools:context="com.diptomanpcblab.asus.pcblab.PhyExp02P4">
+
+    <TextView
+        android:id="@+id/cmdId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:text="@string/phy02_cmd01"
+        android:textColor="@color/physics_color"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/boardId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginStart="15dp"
+        android:src="@drawable/phy_exp_back2" />
+
+    <ImageView
+        android:id="@+id/box1"
+        android:layout_width="75dp"
+        android:layout_height="65dp"
+        android:background="@color/white"
+        android:layout_alignEnd="@+id/phy01ex01"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="22dp"/>
+
+    <ImageView
+        android:id="@+id/phy01ex01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="21dp"
+        android:layout_marginTop="36dp"
+        android:src="@drawable/phy02ex01" />
+
+    <ImageView
+        android:id="@+id/box2"
+        android:layout_width="75dp"
+        android:layout_height="65dp"
+        android:background="@color/white"
+        android:layout_alignEnd="@+id/box1"
+        android:layout_below="@+id/phy01ex01"
+        android:layout_marginTop="30dp"/>
+
+    <ImageView
+        android:id="@+id/phy01ex02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/phy01ex01"
+        android:layout_below="@+id/phy01ex01"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="15dp"
+        android:src="@drawable/phy02ex02" />
+
+    <ImageView
+        android:id="@+id/box3"
+        android:layout_width="75dp"
+        android:layout_height="65dp"
+        android:background="@color/white"
+        android:layout_alignEnd="@+id/box1"
+        android:layout_below="@+id/box2"
+        android:layout_marginTop="16dp"/>
+
+    <ImageView
+        android:id="@+id/phy01ex03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/cmdId"
+        android:layout_alignTop="@+id/phy01ex02"
+        android:layout_marginStart="18dp"
+        android:src="@drawable/phy02ex03f1"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/forPhy01P1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/box2"
+        android:layout_marginEnd="56dp"
+        android:layout_toStartOf="@+id/nextId"
+        android:text="@string/forward02"
+        android:textColor="@color/progress"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/forPhy01P2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/forPhy01P3"
+        android:layout_alignEnd="@+id/forPhy01P1"
+        android:layout_marginEnd="20dp"
+        android:text="@string/pich"
+        android:textColor="@color/progress"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/forPhy01P3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/nextId"
+        android:layout_alignEnd="@+id/forPhy01P2"
+        android:layout_marginEnd="15dp"
+        android:text="@string/take_value"
+        android:textColor="@color/progress"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/phy01ex06"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/phy02ex05"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/down_pointer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/forPhy01P1"
+        android:layout_marginEnd="40dp"
+        android:layout_toStartOf="@+id/nextId"
+        android:src="@drawable/down_pointer"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/backId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/back_button"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/nextId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/forward01"
+        android:textColor="@color/physics_color"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        android:visibility="invisible"/>
+
+</RelativeLayout>

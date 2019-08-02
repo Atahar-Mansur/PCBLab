@@ -75,6 +75,11 @@
         <activity
             android:name=".BioExp01P3"
             android:screenOrientation="landscape" />
+        <activity android:name=".PhyExp02P1" />
+        <activity android:name=".PhyExp02P2" />
+        <activity android:name=".PhyExp02P3" />
+        <activity android:name=".PhyExp02P5" />
+        <activity android:name=".PhyExp02P4"></activity>
     </application>
 
 </manifest>

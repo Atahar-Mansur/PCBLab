@@ -34,10 +34,14 @@ public class Physics extends AppCompatActivity {
         physics_list_view.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                if(i>0) Toast.makeText(Physics.this,"Sorry this experiment is locked\nPlease wait for update",
+                if(i>1) Toast.makeText(Physics.this,"Sorry this experiment is locked\nPlease wait for update",
                         Toast.LENGTH_SHORT).show();
                 else if (i==0){
                     Intent intent = new Intent(Physics.this,PhyExp01P1.class);
+                    startActivity(intent);
+                }
+                else if (i==1){
+                    Intent intent = new Intent(Physics.this,PhyExp02P1.class);
                     startActivity(intent);
                 }
             }
